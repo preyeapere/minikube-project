@@ -33,3 +33,6 @@ k exec -it jenkins-f56c6888f-b489w -n <podname> -- sh
 #echo "I love Devops".output.txt
 #cat output.txt
 Exit
+
+#Bonus to dedlete all pod on all name spaces including default
+k delete pods --all --all-namespaces
